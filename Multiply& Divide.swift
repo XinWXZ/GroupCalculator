@@ -17,7 +17,7 @@ showMenu() //displays menu
 print("Enter Function Number Here:")
 var funcNumber = Int(readLine()!)!
 
-print("Now enter your two numbers:") 
+print("Now enter your two numbers:")
 let numberA = Int(readLine()!)!
 let numberB = Int(readLine()!)!
 
@@ -31,12 +31,13 @@ else if funcNumber == 5 {
 }else if funcNumber == 3{
    print(numberA * numberB)
 
-}else if funcNumber == 3{
+}else if funcNumber == 4{
  if numberB == 0{
   print("Don't have real number answer")
  }else{
        print(numberA / numberB)
 }
 }
+
 
   
